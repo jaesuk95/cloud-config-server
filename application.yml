@@ -24,3 +24,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://USER-SERVICE/user/register
+  user-service:
+    endpoints:
+      endpoint:
+        uri: http://USER-SERVICE/user/lists
