@@ -19,4 +19,4 @@ microservice:
   user-service:
     endpoints:
       endpoint:
-        uri: http://USER-SERVICE/user/register        
+        uri: http://USER-SERVICE/user/home
