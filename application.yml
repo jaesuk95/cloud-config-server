@@ -28,3 +28,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://USER-SERVICE/user/lists
+  user-service:
+    endpoints:
+      endpoint:
+        uri: http://USER-SERVICE/user/{userid}
