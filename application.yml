@@ -32,3 +32,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://USER-SERVICE/user/{userid}
+  user-service:
+    endpoints:
+      endpoint:
+        uri: http://USER-SERVICE/test
+
